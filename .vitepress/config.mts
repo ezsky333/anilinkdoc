@@ -70,7 +70,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/eventhorizonsky/anilinkserver' }
+      { icon: 'github', link: 'https://github.com/eventhorizonsky/AniLinkService' }
     ]
   }
 })
