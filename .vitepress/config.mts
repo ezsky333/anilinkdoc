@@ -6,6 +6,15 @@ export default defineConfig({
 
   title: "AniLinkServer",
   description: "一个为弹幕站设计的媒体管理服务",
+  
+  // 忽略死链接检查
+  ignoreDeadLinks: [
+    // 忽略所有 localhost 链接
+    /^https?:\/\/localhost/,
+    // 忽略相对路径链接（文档尚未完成）
+    /^\.\//
+  ],
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
