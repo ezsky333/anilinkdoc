@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
+  base: '/anilinkdoc/',
 
   title: "AniLinkServer",
   description: "一个为弹幕站设计的媒体管理服务",
